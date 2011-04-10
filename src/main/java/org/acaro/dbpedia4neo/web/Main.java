@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 
 		final Server server = new Server(8081);
-		final Neo4jGraph neo  = new Neo4jGraph("/Users/hammer/UNIBZ/neodbpedia/");
+		final Neo4jGraph neo  = new Neo4jGraph("dbpedia4neo");
 		final GraphSail gsail = new GraphSail(neo);
 		final SailGraph sail  = new SailGraph(gsail);
 		

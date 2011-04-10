@@ -34,21 +34,21 @@
 		</plugins>
 	</build>
 	<dependencies>
-       <dependency>
-           <groupId>com.tinkerpop.blueprints</groupId>
-           <artifactId>blueprints-graph-sail</artifactId>
-           <version>0.6</version>
-       </dependency>
-       <dependency>
-           <groupId>com.tinkerpop.blueprints</groupId>
-           <artifactId>blueprints-sail-graph</artifactId>
-           <version>0.6</version>
-       </dependency>
-       <dependency>
-           <groupId>com.tinkerpop.blueprints</groupId>
-           <artifactId>blueprints-neo4j-graph</artifactId>
-           <version>0.6</version>
-       </dependency>
+		<dependency>
+			<groupId>com.tinkerpop.blueprints</groupId>
+			<artifactId>blueprints-graph-sail</artifactId>
+			<version>0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.tinkerpop.blueprints</groupId>
+			<artifactId>blueprints-sail-graph</artifactId>
+			<version>0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.tinkerpop.blueprints</groupId>
+			<artifactId>blueprints-neo4j-graph</artifactId>
+			<version>0.6</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
